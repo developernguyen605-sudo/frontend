@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { HiOutlineSearch, HiOutlineEye, HiOutlineTrash } from 'react-icons/hi';
-import { toast } from 'react-toastify';
+import toast from 'react-hot-toast';
 import api from '../../services/api';
 import { formatVND, formatDateTime } from '../../utils/format';
-import { useAuthStore } from '../../store/auth';
+import useAuthStore from '../../stores/authStore';
 import SessionDetailModal from './SessionDetailModal';
 
 function formatShortDuration(start, end) {
