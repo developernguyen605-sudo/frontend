@@ -19,6 +19,7 @@ import useAuthStore from '../../stores/authStore';
 
 const PRESETS = [
   { id: 'today', label: 'Hôm nay' },
+  { id: 'yesterday', label: 'Hôm qua' },
   { id: 'week', label: 'Tuần này' },
   { id: 'month', label: 'Tháng này' },
   { id: 'year', label: 'Năm nay' },
