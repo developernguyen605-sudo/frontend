@@ -418,13 +418,13 @@ export default function SettingsPage() {
                     storeAddress,
                     storePhone,
                     stockManagementEnabled: String(stockManagementEnabled),
-                    timezone,
+                   //timezone,
                   }
                   : {
                     storeName,
                     storeAddress,
                     storePhone,
-                    timezone,
+                    //timezone,
                   }
               )
             }
